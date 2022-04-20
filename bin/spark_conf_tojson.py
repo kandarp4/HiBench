@@ -13,7 +13,7 @@ def log(*s):
 
 
 def main(filename):
-
+    print("conf_filename",filename)
     spark_conf = dict()
     with open(filename) as f:
         for line in f.readlines():
@@ -28,7 +28,7 @@ def main(filename):
                 key = line.strip()
                 value = ""
             spark_conf[key] = value
-    print(json.loads(spark_conf))
+    print(spark_conf)
 
 if __name__ == "__main__":
     main(sys.argv[1:])
