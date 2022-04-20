@@ -13,7 +13,7 @@ def log(*s):
 
 
 def main(filename):
-    print("conf_filename",filename)
+    log("conf_filename",filename)
     spark_conf = dict()
     with open(filename) as f:
         for line in f.readlines():
