@@ -1,3 +1,11 @@
+
+set -u
+
+current_dir=`dirname "$0"`
+root_dir=`cd "${current_dir}/.."; pwd`
+
+. ${root_dir}/bin/functions/color.sh
+
 readarray -t my_array < <(jq -c '.[]' conf/spark-sampled-conf.json)
 
 # iterate through the Bash array
@@ -8,12 +16,7 @@ for item in "${my_array[@]}"; do
     # Utilize your variables
     python bin/write_spark_conf.py $item
 
-    set -u
 
-    current_dir=`dirname "$0"`
-    root_dir=`cd "${current_dir}/.."; pwd`
-
-    . ${root_dir}/bin/functions/color.sh
 
     for benchmark in `cat $root_dir/conf/benchmarks.lst`; do
         if [[ $benchmark == \#* ]]; then
