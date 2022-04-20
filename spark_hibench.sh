@@ -9,3 +9,4 @@ export PATH=$M2:$PATH
 cd HiBench
 mvn -Dspark=3.0 -Dscala=2.12 clean package
 mvn -Phadoopbench -Psparkbench -Dspark=3.0 -Dscala=2.12 clean package
+mkdir /tmp/spark-events
