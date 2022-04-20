@@ -27,8 +27,8 @@ for item in "${my_array[@]}"; do
         benchmark="${benchmark/.//}"
 
         WORKLOAD=$root_dir/bin/workloads/${benchmark}
-        echo -e "${BCyan}Exec script: ${Cyan}${WORKLOAD}/prepare/prepare.sh${Color_Off}"
-        "${WORKLOAD}/prepare/prepare.sh"
+#        echo -e "${BCyan}Exec script: ${Cyan}${WORKLOAD}/prepare/prepare.sh${Color_Off}"
+#        "${WORKLOAD}/prepare/prepare.sh"
 
         result=$?
         if [ $result -ne 0 ]
