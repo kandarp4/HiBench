@@ -29,7 +29,7 @@ def main(filename):
                 value = ""
             spark_conf[key] = value
     log(str(spark_conf))
-    print(str(spark_conf))
+    return str(spark_conf)
 
 if __name__ == "__main__":
     main(sys.argv[1:])
