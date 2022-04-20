@@ -103,7 +103,7 @@ function gen_report() {		# dump the result to report file
         echo "${REPORT_TITLE}" > ${HIBENCH_REPORT}/${HIBENCH_REPORT_NAME}
     fi
 
-    SPARK_CONF= $(python bin/spark_conf_tojson.py $SPARK_PROP_CONF)
+    SPARK_CONF= python bin/spark_conf_tojson.py $SPARK_PROP_CONF
 
     REPORT_LINE=$(printf "${REPORT_COLUMN_FORMATS}" ${HIBENCH_CUR_WORKLOAD_NAME} $(date +%F) $(date +%T) $size $duration $tput $tput_node $SPARK_CONF $result)
     echo "${REPORT_LINE}" >> ${HIBENCH_REPORT}/${HIBENCH_REPORT_NAME}
