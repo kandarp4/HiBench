@@ -38,9 +38,11 @@ def main(conf):
         for key, value in spark_conf.items():
             if key == "spark.executor.instances":
                 file.write("hibench.yarn.executor.num\t"+str(value)+os.linesep)
+                file.write(key+"\t"+str(value)+os.linesep)
                 continue
             elif key == "spark.executor.cores":
                 file.write("hibench.yarn.executor.cores\t"+str(value)+os.linesep)
+                file.write(key + "\t" + str(value) + os.linesep)
                 continue
             file.write(key+"\t"+str(value)+os.linesep)
 
