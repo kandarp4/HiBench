@@ -34,17 +34,16 @@ def main(conf):
             spark_default_conf[key] = value
     with open('conf/spark.conf', 'w') as file:
         for d_key, d_value in spark_default_conf.items():
-            file.write(d_key+"="+str(d_value)+os.linesep)
+            file.write(d_key+"\t"+str(d_value)+os.linesep)
         for key, value in spark_conf.items():
             if key == "spark.executor.instances":
-                file.write("hibench.yarn.executor.num="+str(value)+os.linesep)
+                file.write("hibench.yarn.executor.num\t"+str(value)+os.linesep)
                 continue
             elif key == "spark.executor.cores":
-                file.write("hibench.yarn.executor.cores="+str(value)+os.linesep)
+                file.write("hibench.yarn.executor.cores\t"+str(value)+os.linesep)
                 continue
             file.write(key+"\t"+str(value)+os.linesep)
 
 
 if __name__ == "__main__":
     main(sys.argv[1:])
-    sys.exit(0)
