@@ -28,7 +28,7 @@ def main(filename):
                 key = line.strip()
                 value = ""
             spark_conf[key] = value
-    print(spark_conf)
+    print(json.dumps(spark_conf))
 
 if __name__ == "__main__":
     main(sys.argv[1:])
