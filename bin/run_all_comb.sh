@@ -20,12 +20,12 @@ for item in "${my_array[@]}"; do
             continue
         fi
 
-        echo -e "${UYellow}${BYellow}Prepare ${Yellow}${UYellow}${benchmark} ${BYellow}...${Color_Off}"
-        benchmark="${benchmark/.//}"
-
-        WORKLOAD=$root_dir/bin/workloads/${benchmark}
-        echo -e "${BCyan}Exec script: ${Cyan}${WORKLOAD}/prepare/prepare.sh${Color_Off}"
-        "${WORKLOAD}/prepare/prepare.sh"
+#        echo -e "${UYellow}${BYellow}Prepare ${Yellow}${UYellow}${benchmark} ${BYellow}...${Color_Off}"
+#        benchmark="${benchmark/.//}"
+#
+#        WORKLOAD=$root_dir/bin/workloads/${benchmark}
+#        echo -e "${BCyan}Exec script: ${Cyan}${WORKLOAD}/prepare/prepare.sh${Color_Off}"
+#        "${WORKLOAD}/prepare/prepare.sh"
 
         result=$?
         if [ $result -ne 0 ]
@@ -99,7 +99,7 @@ for item in "${my_array[@]}"; do
         if [ $result -ne 0 ]
         then
             echo -e "${On_IRed}ERROR: ${benchmark}/${framework} failed to run successfully.${Color_Off}"
-                exit $result
+                $result
         fi
         done
     done
