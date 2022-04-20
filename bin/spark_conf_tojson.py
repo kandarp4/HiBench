@@ -15,7 +15,7 @@ def log(*s):
 def main(filename):
     log("conf_filename",filename)
     spark_conf = dict()
-    with open(filename) as f:
+    with open(filename[0]) as f:
         for line in f.readlines():
             line = line.strip()
             if not line:
