@@ -35,6 +35,8 @@ run_spark_job com.intel.hibench.sparkbench.sql.ScalaSparkSQLBench ScalaJoin ${HI
 sleep 5
 END_TIME=`timestamp`
 
-gen_report ${START_TIME} ${END_TIME} ${SIZE:-0}
+SIZE_OUTPUT=`dir_size $OUTPUT_HDFS`
+
+gen_report ${START_TIME} ${END_TIME} ${SIZE:-0} ${SIZE_OUTPUT}
 show_bannar finish
 leave_bench

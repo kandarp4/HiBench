@@ -31,6 +31,8 @@ run_spark_job com.intel.hibench.sparkbench.ml.LinearRegressionWithElasticNet \
     --maxIter ${NUM_ITERATIONS_LINEAR} --tol ${TOL_LINEAR} ${INPUT_HDFS}
 END_TIME=`timestamp`
 
-gen_report ${START_TIME} ${END_TIME} ${SIZE}
+SIZE_OUTPUT=`dir_size $OUTPUT_HDFS`
+
+gen_report ${START_TIME} ${END_TIME} ${SIZE} ${SIZE_OUTPUT}
 show_bannar finish
 leave_bench

@@ -31,6 +31,8 @@ START_TIME=`timestamp`
 run_spark_job com.intel.hibench.sparkbench.ml.DenseKMeans -k $K --numIterations $MAX_ITERATION --storageLevel $K_STORAGE_LEVEL --initMode $K_INIT_MODE $INPUT_HDFS/samples
 END_TIME=`timestamp`
 
-gen_report ${START_TIME} ${END_TIME} ${SIZE}
+SIZE_OUTPUT=`dir_size $OUTPUT_HDFS`
+
+gen_report ${START_TIME} ${END_TIME} ${SIZE} ${SIZE_OUTPUT}
 show_bannar finish
 leave_bench
