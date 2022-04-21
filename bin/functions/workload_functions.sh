@@ -75,7 +75,7 @@ function stop_monitor(){
 }
 
 function get_field_name() {	# print report column header
-    printf "${REPORT_COLUMN_FORMATS}" Type Date Time Input_data_size "Duration(s)" "Throughput(bytes/s)" Throughput/node spark_conf status
+    printf "${REPORT_COLUMN_FORMATS}" Type Date Time Input_data_size Output_data_size "Duration(s)" "Throughput(bytes/s)" Throughput/node spark_conf status
 }
 
 
@@ -84,6 +84,7 @@ function gen_report() {		# dump the result to report file
     local start=$1
     local end=$2
     local size=$3
+    local size_output=$4
     which bc > /dev/null 2>&1
     if [ $? -eq 1 ]; then
 	assert 0 "\"bc\" utility missing. Please install it to generate proper report."
@@ -105,7 +106,7 @@ function gen_report() {		# dump the result to report file
 
     SPARK_CONF=$(python bin/spark_conf_tojson.py $SPARK_PROP_CONF)
 
-    REPORT_LINE=$(printf "${REPORT_COLUMN_FORMATS}" ${HIBENCH_CUR_WORKLOAD_NAME} $(date +%F) $(date +%T) $size $duration $tput $tput_node $SPARK_CONF $result)
+    REPORT_LINE=$(printf "${REPORT_COLUMN_FORMATS}" ${HIBENCH_CUR_WORKLOAD_NAME} $(date +%F) $(date +%T) $size $size_output $duration $tput $tput_node $SPARK_CONF $result)
     echo "${REPORT_LINE}" >> ${HIBENCH_REPORT}/${HIBENCH_REPORT_NAME}
     echo "# ${REPORT_TITLE}" >> ${HIBENCH_WORKLOAD_CONF}
     echo "# ${REPORT_LINE}" >> ${HIBENCH_WORKLOAD_CONF}

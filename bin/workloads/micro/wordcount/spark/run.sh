@@ -29,7 +29,8 @@ SIZE=`dir_size $INPUT_HDFS`
 START_TIME=`timestamp`
 run_spark_job com.intel.hibench.sparkbench.micro.ScalaWordCount $INPUT_HDFS $OUTPUT_HDFS
 END_TIME=`timestamp`
+SIZE_OUTPUT=`dir_size $OUTPUT_HDFS`
 
-gen_report ${START_TIME} ${END_TIME} ${SIZE}
+gen_report ${START_TIME} ${END_TIME} ${SIZE} ${SIZE_OUTPUT}
 show_bannar finish
 leave_bench
