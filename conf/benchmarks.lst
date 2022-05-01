@@ -1,12 +1,7 @@
-micro.sort
 micro.terasort
 micro.wordcount
-micro.repartition
 
 sql.join
-sql.scan
 
 ml.bayes
-ml.kmeans
-ml.lr
 ml.linear
