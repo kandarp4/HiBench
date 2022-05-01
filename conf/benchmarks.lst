@@ -1,7 +1,4 @@
-micro.terasort
+
 micro.wordcount
-
-sql.join
-
 ml.bayes
-ml.linear
+ml.lr
