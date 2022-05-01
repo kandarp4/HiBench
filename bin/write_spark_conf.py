@@ -15,7 +15,8 @@ def log(*s):
 def main(conf):
     # load values from conf files
     filename = "conf/spark_default.conf"
-    spark_conf = json.loads(conf[0]['config'])
+    spark_conf_1 = json.loads(conf[0])
+    spark_conf = spark_conf_1['config']
     log("Parsing conf: %s" % filename)
 
     spark_default_conf = dict()
