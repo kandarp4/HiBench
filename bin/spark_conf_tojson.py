@@ -18,6 +18,10 @@ def main(filename):
     with open(filename[0]) as f:
         for line in f.readlines():
             line = line.strip()
+            if not line:
+                continue  # skip empty lines
+            if line[0] == '#':
+                line = line[1:]
             try:
                 key, value = re.split("\s", line, 1)
             except ValueError:
