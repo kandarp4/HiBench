@@ -14,7 +14,7 @@ for item in "${my_array[@]}"; do
 #  changed_name=$(jq '.changed_name' <<< "$item")
 
     # Utilize your variables
-    echo $item
+    export SPARK_CONF_VALIDATOR=$item
     python bin/write_spark_conf.py $item
 
 

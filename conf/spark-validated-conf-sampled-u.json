@@ -2,784 +2,175 @@
   {
     "validator-resp": {
       "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
       "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
+        "Memory-Error",
+        "parallelism-underutilization-Error"
       ]
     },
     "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 2000,
       "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
+      "spark.executor.memory": "50g",
       "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 8,
       "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
+      "spark.shuffle.spill.compress": "false",
       "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
+      "spark.rdd.compress": "false",
       "spark.executor.heartbeatInterval": "10s",
       "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
+      "spark.shuffle.file.buffer": "64k",
       "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
     }
   },
   {
     "validator-resp": {
       "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
       "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
+        "Memory-Error",
+        "parallelism-underutilization-Error"
       ]
     },
     "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 2000,
       "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
+      "spark.executor.memory": "50g",
       "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 8,
       "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
+      "spark.shuffle.spill.compress": "false",
       "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
+      "spark.rdd.compress": "false",
       "spark.executor.heartbeatInterval": "10s",
       "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
+      "spark.shuffle.file.buffer": "64k",
       "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
     }
   },
   {
     "validator-resp": {
       "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
       "invalid_conf_type": [
         "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
+        "Memory-Error",
         "Heartbeat-Error",
-        "patitions-underutilization-Error"
+        "parallelism-underutilization-Error"
       ]
     },
     "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.instances": 13,
+      "spark.sql.shuffle.partitions": 2000,
       "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 8,
       "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "2000s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "2000s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "2000s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "2000s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
+      "spark.shuffle.spill.compress": "false",
       "spark.broadcast.compress": "true",
       "spark.rdd.compress": "true",
       "spark.executor.heartbeatInterval": "100s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
     }
   },
   {
     "validator-resp": {
       "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
       "invalid_conf_type": [
         "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
+        "Memory-Error",
+        "Heartbeat-Error",
+        "parallelism-underutilization-Error"
       ]
     },
     "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.instances": 13,
+      "spark.sql.shuffle.partitions": 2000,
       "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 8,
       "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
+      "spark.shuffle.spill.compress": "false",
       "spark.broadcast.compress": "true",
       "spark.rdd.compress": "true",
       "spark.executor.heartbeatInterval": "100s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "64k",
       "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
     }
   },
   {
     "validator-resp": {
       "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
       "invalid_conf_type": [
         "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
+        "Memory-Error",
+        "Heartbeat-Error",
+        "parallelism-underutilization-Error"
       ]
     },
     "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.instances": 13,
+      "spark.sql.shuffle.partitions": 2000,
       "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 8,
       "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
+      "spark.shuffle.spill.compress": "false",
       "spark.broadcast.compress": "true",
       "spark.rdd.compress": "true",
       "spark.executor.heartbeatInterval": "100s",
-      "spark.network.timeout": "100s",
+      "spark.network.timeout": "10s",
       "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
     }
   },
   {
     "validator-resp": {
       "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
       "invalid_conf_type": [
         "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
+        "Memory-Error",
+        "Heartbeat-Error",
+        "parallelism-underutilization-Error"
       ]
     },
     "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.instances": 13,
+      "spark.sql.shuffle.partitions": 2000,
       "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 8,
       "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
+      "spark.shuffle.spill.compress": "false",
       "spark.broadcast.compress": "true",
       "spark.rdd.compress": "true",
       "spark.executor.heartbeatInterval": "100s",
-      "spark.network.timeout": "100s",
+      "spark.network.timeout": "10s",
       "spark.shuffle.file.buffer": "64k",
       "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
     }
@@ -787,1018 +178,28 @@
   {
     "validator-resp": {
       "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
+      "cluster_utilization": 228.57142857142856,
+      "recommended": 32,
       "invalid_conf_type": [
         "Executors-Underutilization-Error",
-        "Heartbeat-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "100s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 1728,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error",
-        "parallelism-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 1700,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 1728,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
+        "Memory-Error",
         "Heartbeat-Error",
         "patitions-underutilization-Error",
         "parallelism-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 1700,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 1728,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Heartbeat-Error",
-        "patitions-underutilization-Error",
-        "parallelism-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 1700,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 1728,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error",
-        "parallelism-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 1700,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 1728,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error",
-        "parallelism-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 1700,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 1728,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error",
-        "parallelism-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 1700,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 1728,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error",
-        "parallelism-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 1700,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 1728,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error",
-        "parallelism-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 1700,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 1728,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error",
-        "parallelism-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 1700,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "2000s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 3.4482758620689653,
-      "recommended": 1728,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "patitions-underutilization-Error",
-        "parallelism-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 1700,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "2000s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 31.818181818181817,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Memory-Underutilization-Error",
-        "Heartbeat-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 3,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 31.818181818181817,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Memory-Underutilization-Error",
-        "Heartbeat-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 3,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 31.818181818181817,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Memory-Underutilization-Error",
-        "Heartbeat-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 3,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 31.818181818181817,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Memory-Underutilization-Error",
-        "Heartbeat-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 3,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 31.818181818181817,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Memory-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 3,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 31.818181818181817,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Memory-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 3,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 31.818181818181817,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Memory-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 3,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 31.818181818181817,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Memory-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 3,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 31.818181818181817,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Memory-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 3,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "2000s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 31.818181818181817,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Memory-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 3,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "2000s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 228.57142857142856,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Memory-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "16g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 228.57142857142856,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Memory-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "16g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 228.57142857142856,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Memory-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "16g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 228.57142857142856,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Memory-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "16g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 228.57142857142856,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Memory-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "16g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 228.57142857142856,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Memory-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "16g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 228.57142857142856,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Memory-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "16g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 228.57142857142856,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Memory-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "16g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 228.57142857142856,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Memory-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "16g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "2000s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 228.57142857142856,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executors-Underutilization-Error",
-        "Memory-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 1,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 1,
-      "spark.executor.memory": "16g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "2000s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 18.91891891891892,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executor-Error",
-        "Memory-Underutilization-Error",
-        "patitions-underutilization-Error"
       ]
     },
     "config": {
       "spark.executor.instances": 9,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 5,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.8,
+      "spark.memory.storageFraction": 0.8,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
       "spark.shuffle.spill.compress": "true",
       "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 18.91891891891892,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executor-Error",
-        "Memory-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 9,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 5,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 18.91891891891892,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executor-Error",
-        "Memory-Underutilization-Error",
-        "Heartbeat-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 9,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 5,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
+      "spark.rdd.compress": "false",
       "spark.executor.heartbeatInterval": "10s",
       "spark.network.timeout": "10s",
       "spark.shuffle.file.buffer": "64k",
@@ -1808,28 +209,538 @@
   {
     "validator-resp": {
       "valid_conf": false,
-      "cluster_utilization": 18.91891891891892,
-      "recommended": 96,
+      "cluster_utilization": 228.57142857142856,
+      "recommended": 32,
       "invalid_conf_type": [
-        "Executor-Error",
-        "Memory-Underutilization-Error",
+        "Executors-Underutilization-Error",
+        "Memory-Error",
         "Heartbeat-Error",
-        "patitions-underutilization-Error"
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
       ]
     },
     "config": {
       "spark.executor.instances": 9,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 5,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.8,
+      "spark.memory.storageFraction": 0.8,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 228.57142857142856,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 9,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.8,
+      "spark.memory.storageFraction": 0.8,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 228.57142857142856,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 9,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.8,
+      "spark.memory.storageFraction": 0.8,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 228.57142857142856,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 9,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.8,
+      "spark.memory.storageFraction": 0.8,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 227.27272727272728,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 1,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 3,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
       "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "2000s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 227.27272727272728,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 1,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 3,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "2000s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 227.27272727272728,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 1,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 3,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "2000s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 227.27272727272728,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 1,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 3,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "2000s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 9,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.8,
+      "spark.default.parallelism": 8,
       "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "2000s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 9,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.8,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "2000s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 9,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.8,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "2000s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 9,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.8,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "2000s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 227.27272727272728,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Memory-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 9,
+      "spark.sql.shuffle.partitions": 2000,
+      "spark.executor.cores": 3,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.5,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
       "spark.shuffle.spill.compress": "true",
       "spark.broadcast.compress": "true",
       "spark.rdd.compress": "true",
       "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "2000s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 227.27272727272728,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Memory-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 9,
+      "spark.sql.shuffle.partitions": 2000,
+      "spark.executor.cores": 3,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.5,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "2000s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Memory-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.4,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Memory-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.4,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Memory-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.4,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Memory-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.4,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "100s",
       "spark.network.timeout": "10s",
       "spark.shuffle.file.buffer": "64k",
       "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
@@ -1839,85 +750,28 @@
     "validator-resp": {
       "valid_conf": false,
       "cluster_utilization": 18.91891891891892,
-      "recommended": 96,
+      "recommended": 32,
       "invalid_conf_type": [
         "Executor-Error",
         "Memory-Underutilization-Error",
-        "patitions-underutilization-Error"
+        "Heartbeat-Error",
+        "parallelism-underutilization-Error"
       ]
     },
     "config": {
-      "spark.executor.instances": 9,
-      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.instances": 13,
+      "spark.sql.shuffle.partitions": 2000,
       "spark.executor.cores": 5,
       "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
+      "spark.memory.fraction": 0.8,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 8,
       "spark.shuffle.compress": "true",
       "spark.shuffle.spill.compress": "true",
       "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 18.91891891891892,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executor-Error",
-        "Memory-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 9,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 5,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 18.91891891891892,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executor-Error",
-        "Memory-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 9,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 5,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "2000s",
+      "spark.network.timeout": "2000s",
       "spark.shuffle.file.buffer": "64k",
       "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
     }
@@ -1926,57 +780,29 @@
     "validator-resp": {
       "valid_conf": false,
       "cluster_utilization": 18.91891891891892,
-      "recommended": 96,
+      "recommended": 32,
       "invalid_conf_type": [
         "Executor-Error",
         "Memory-Underutilization-Error",
-        "patitions-underutilization-Error"
+        "Heartbeat-Error",
+        "parallelism-underutilization-Error"
       ]
     },
     "config": {
-      "spark.executor.instances": 9,
-      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.instances": 13,
+      "spark.sql.shuffle.partitions": 2000,
       "spark.executor.cores": 5,
       "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
+      "spark.memory.fraction": 0.8,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 8,
       "spark.shuffle.compress": "true",
       "spark.shuffle.spill.compress": "true",
       "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": false,
-      "cluster_utilization": 18.91891891891892,
-      "recommended": 96,
-      "invalid_conf_type": [
-        "Executor-Error",
-        "Memory-Underutilization-Error",
-        "patitions-underutilization-Error"
-      ]
-    },
-    "config": {
-      "spark.executor.instances": 9,
-      "spark.sql.shuffle.partitions": 64,
-      "spark.executor.cores": 5,
-      "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "2000s",
       "spark.network.timeout": "2000s",
-      "spark.shuffle.file.buffer": "32k",
+      "spark.shuffle.file.buffer": "64k",
       "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
     }
   },
@@ -1984,187 +810,27 @@
     "validator-resp": {
       "valid_conf": false,
       "cluster_utilization": 18.91891891891892,
-      "recommended": 96,
+      "recommended": 32,
       "invalid_conf_type": [
         "Executor-Error",
         "Memory-Underutilization-Error",
-        "patitions-underutilization-Error"
+        "Heartbeat-Error",
+        "parallelism-underutilization-Error"
       ]
     },
     "config": {
-      "spark.executor.instances": 9,
-      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.instances": 13,
+      "spark.sql.shuffle.partitions": 2000,
       "spark.executor.cores": 5,
       "spark.executor.memory": "7g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
+      "spark.memory.fraction": 0.8,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 8,
       "spark.shuffle.compress": "true",
       "spark.shuffle.spill.compress": "true",
       "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "2000s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": true,
-      "invalid_conf_type": []
-    },
-    "config": {
-      "spark.executor.instances": 9,
-      "spark.sql.shuffle.partitions": 2000,
-      "spark.executor.cores": 3,
-      "spark.executor.memory": "16g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": true,
-      "invalid_conf_type": []
-    },
-    "config": {
-      "spark.executor.instances": 9,
-      "spark.sql.shuffle.partitions": 2000,
-      "spark.executor.cores": 3,
-      "spark.executor.memory": "16g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": true,
-      "invalid_conf_type": []
-    },
-    "config": {
-      "spark.executor.instances": 9,
-      "spark.sql.shuffle.partitions": 2000,
-      "spark.executor.cores": 3,
-      "spark.executor.memory": "16g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": true,
-      "invalid_conf_type": []
-    },
-    "config": {
-      "spark.executor.instances": 9,
-      "spark.sql.shuffle.partitions": 2000,
-      "spark.executor.cores": 3,
-      "spark.executor.memory": "16g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "100s",
-      "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": true,
-      "invalid_conf_type": []
-    },
-    "config": {
-      "spark.executor.instances": 9,
-      "spark.sql.shuffle.partitions": 2000,
-      "spark.executor.cores": 3,
-      "spark.executor.memory": "16g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "2000s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": true,
-      "invalid_conf_type": []
-    },
-    "config": {
-      "spark.executor.instances": 9,
-      "spark.sql.shuffle.partitions": 2000,
-      "spark.executor.cores": 3,
-      "spark.executor.memory": "16g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "2000s",
-      "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
-    }
-  },
-  {
-    "validator-resp": {
-      "valid_conf": true,
-      "invalid_conf_type": []
-    },
-    "config": {
-      "spark.executor.instances": 9,
-      "spark.sql.shuffle.partitions": 2000,
-      "spark.executor.cores": 3,
-      "spark.executor.memory": "16g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
-      "spark.shuffle.spill.compress": "true",
-      "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "2000s",
       "spark.network.timeout": "2000s",
       "spark.shuffle.file.buffer": "64k",
       "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
@@ -2172,48 +838,187 @@
   },
   {
     "validator-resp": {
-      "valid_conf": true,
-      "invalid_conf_type": []
+      "valid_conf": false,
+      "cluster_utilization": 18.91891891891892,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Underutilization-Error",
+        "Heartbeat-Error",
+        "parallelism-underutilization-Error"
+      ]
     },
     "config": {
-      "spark.executor.instances": 9,
+      "spark.executor.instances": 13,
       "spark.sql.shuffle.partitions": 2000,
-      "spark.executor.cores": 3,
-      "spark.executor.memory": "16g",
-      "spark.memory.fraction": 0.4,
-      "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "7g",
+      "spark.memory.fraction": 0.8,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 8,
       "spark.shuffle.compress": "true",
       "spark.shuffle.spill.compress": "true",
       "spark.broadcast.compress": "true",
-      "spark.rdd.compress": "true",
-      "spark.executor.heartbeatInterval": "10s",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "2000s",
       "spark.network.timeout": "2000s",
       "spark.shuffle.file.buffer": "64k",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
     }
   },
   {
     "validator-resp": {
-      "valid_conf": true,
-      "invalid_conf_type": []
+      "valid_conf": false,
+      "cluster_utilization": 43.24324324324324,
+      "recommended": 1728,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Underutilization-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
     },
     "config": {
-      "spark.executor.instances": 9,
-      "spark.sql.shuffle.partitions": 2000,
-      "spark.executor.cores": 3,
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.cores": 5,
       "spark.executor.memory": "16g",
-      "spark.memory.fraction": 0.4,
+      "spark.memory.fraction": 0.7,
       "spark.memory.storageFraction": 0.3,
-      "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
+      "spark.default.parallelism": 1700,
+      "spark.shuffle.compress": "false",
       "spark.shuffle.spill.compress": "true",
       "spark.broadcast.compress": "true",
       "spark.rdd.compress": "true",
       "spark.executor.heartbeatInterval": "100s",
-      "spark.network.timeout": "2000s",
+      "spark.network.timeout": "100s",
       "spark.shuffle.file.buffer": "32k",
-      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 43.24324324324324,
+      "recommended": 1728,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Underutilization-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 1700,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 43.24324324324324,
+      "recommended": 1728,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Underutilization-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 1700,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 43.24324324324324,
+      "recommended": 1728,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Underutilization-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 1700,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 43.24324324324324,
+      "recommended": 1728,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Underutilization-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 1700,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
     }
   },
   {
@@ -2226,17 +1031,1304 @@
       "spark.sql.shuffle.partitions": 2000,
       "spark.executor.cores": 3,
       "spark.executor.memory": "16g",
-      "spark.memory.fraction": 0.4,
+      "spark.memory.fraction": 0.7,
       "spark.memory.storageFraction": 0.3,
       "spark.default.parallelism": 32,
-      "spark.shuffle.compress": "true",
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 9,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
       "spark.shuffle.spill.compress": "true",
       "spark.broadcast.compress": "true",
       "spark.rdd.compress": "true",
       "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 9,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 9,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 9,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 9,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 322.22222222222223,
+      "recommended": 96,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.cores": 3,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.4,
+      "spark.memory.storageFraction": 0.8,
+      "spark.default.parallelism": 32,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "2000s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 322.22222222222223,
+      "recommended": 96,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.cores": 3,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.4,
+      "spark.memory.storageFraction": 0.8,
+      "spark.default.parallelism": 32,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "2000s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 322.22222222222223,
+      "recommended": 96,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.cores": 3,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.4,
+      "spark.memory.storageFraction": 0.8,
+      "spark.default.parallelism": 32,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "2000s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "Heartbeat-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 9,
+      "spark.sql.shuffle.partitions": 2000,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "Heartbeat-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 9,
+      "spark.sql.shuffle.partitions": 2000,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "Heartbeat-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 9,
+      "spark.sql.shuffle.partitions": 2000,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 1728,
+      "invalid_conf_type": [
+        "Memory-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.4,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 1700,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 1728,
+      "invalid_conf_type": [
+        "Memory-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.4,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 1700,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 135.13513513513513,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 13,
+      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.6,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 135.13513513513513,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 13,
+      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.6,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 135.13513513513513,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 13,
+      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.6,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 43.24324324324324,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Underutilization-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 13,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "2000s",
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 43.24324324324324,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Underutilization-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 13,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "2000s",
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 43.24324324324324,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Underutilization-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 13,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "2000s",
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 43.24324324324324,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Underutilization-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 13,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "2000s",
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 227.27272727272728,
+      "recommended": 1728,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 13,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 3,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.6,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 1700,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 322.22222222222223,
+      "recommended": 96,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "patitions-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.cores": 3,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.5,
+      "spark.default.parallelism": 32,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 135.13513513513513,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "Heartbeat-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 1,
+      "spark.sql.shuffle.partitions": 2000,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 32,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 228.57142857142856,
+      "recommended": 1728,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 1,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.4,
+      "spark.memory.storageFraction": 0.5,
+      "spark.default.parallelism": 1700,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "2000s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 714.2857142857143,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 1,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "50g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.5,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "2000s",
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 18.91891891891892,
+      "recommended": 1728,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Underutilization-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 9,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "7g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.5,
+      "spark.default.parallelism": 1700,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 18.91891891891892,
+      "recommended": 1728,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Underutilization-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 9,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "7g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.5,
+      "spark.default.parallelism": 1700,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 18.91891891891892,
+      "recommended": 96,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Underutilization-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 1,
+      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "7g",
+      "spark.memory.fraction": 0.4,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 32,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 18.91891891891892,
+      "recommended": 96,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Underutilization-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 1,
+      "spark.sql.shuffle.partitions": 64,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "7g",
+      "spark.memory.fraction": 0.4,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 32,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 43.24324324324324,
+      "recommended": 1728,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Underutilization-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.5,
+      "spark.default.parallelism": 1700,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "2000s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 43.24324324324324,
+      "recommended": 1728,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Underutilization-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.5,
+      "spark.default.parallelism": 1700,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "2000s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 43.24324324324324,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Underutilization-Error",
+        "Heartbeat-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 2000,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 32,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "2000s",
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 43.24324324324324,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Underutilization-Error",
+        "Heartbeat-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 2000,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 32,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "2000s",
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 18.91891891891892,
+      "recommended": 1728,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 1,
+      "spark.sql.shuffle.partitions": 2000,
+      "spark.executor.cores": 5,
+      "spark.executor.memory": "7g",
+      "spark.memory.fraction": 0.6,
+      "spark.memory.storageFraction": 0.5,
+      "spark.default.parallelism": 1700,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 31.818181818181817,
+      "recommended": 32,
+      "invalid_conf_type": [
+        "Executors-Underutilization-Error",
+        "Memory-Underutilization-Error",
+        "Heartbeat-Error",
+        "patitions-underutilization-Error",
+        "parallelism-underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 1,
+      "spark.sql.shuffle.partitions": 8,
+      "spark.executor.cores": 3,
+      "spark.executor.memory": "7g",
+      "spark.memory.fraction": 0.4,
+      "spark.memory.storageFraction": 0.8,
+      "spark.default.parallelism": 8,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "2000s",
+      "spark.network.timeout": "10s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": false,
+      "cluster_utilization": 31.818181818181817,
+      "invalid_conf_type": [
+        "Executor-Error",
+        "Memory-Underutilization-Error"
+      ]
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 2000,
+      "spark.executor.cores": 3,
+      "spark.executor.memory": "7g",
+      "spark.memory.fraction": 0.4,
+      "spark.memory.storageFraction": 0.8,
+      "spark.default.parallelism": 32,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": true,
+      "invalid_conf_type": []
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 2000,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "7g",
+      "spark.memory.fraction": 0.8,
+      "spark.memory.storageFraction": 0.5,
+      "spark.default.parallelism": 32,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "2000s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": true,
+      "invalid_conf_type": []
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 2000,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "7g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.7,
+      "spark.default.parallelism": 32,
+      "spark.shuffle.compress": "true",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "2000s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": true,
+      "invalid_conf_type": []
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 2000,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "7g",
+      "spark.memory.fraction": 0.6,
+      "spark.memory.storageFraction": 0.5,
+      "spark.default.parallelism": 32,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "100s",
       "spark.network.timeout": "2000s",
       "spark.shuffle.file.buffer": "32k",
       "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": true,
+      "invalid_conf_type": []
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 2000,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "7g",
+      "spark.memory.fraction": 0.6,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 32,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "2000s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": true,
+      "invalid_conf_type": []
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 2000,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "7g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.3,
+      "spark.default.parallelism": 32,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": true,
+      "invalid_conf_type": []
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 2000,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "7g",
+      "spark.memory.fraction": 0.8,
+      "spark.memory.storageFraction": 0.8,
+      "spark.default.parallelism": 32,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": true,
+      "invalid_conf_type": []
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 2000,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "7g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.5,
+      "spark.default.parallelism": 32,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": true,
+      "invalid_conf_type": []
+    },
+    "config": {
+      "spark.executor.instances": 29,
+      "spark.sql.shuffle.partitions": 2000,
+      "spark.executor.cores": 1,
+      "spark.executor.memory": "7g",
+      "spark.memory.fraction": 0.7,
+      "spark.memory.storageFraction": 0.5,
+      "spark.default.parallelism": 32,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "true",
+      "spark.broadcast.compress": "true",
+      "spark.rdd.compress": "false",
+      "spark.executor.heartbeatInterval": "10s",
+      "spark.network.timeout": "100s",
+      "spark.shuffle.file.buffer": "32k",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
+    }
+  },
+  {
+    "validator-resp": {
+      "valid_conf": true,
+      "invalid_conf_type": []
+    },
+    "config": {
+      "spark.executor.instances": 9,
+      "spark.sql.shuffle.partitions": 2000,
+      "spark.executor.cores": 3,
+      "spark.executor.memory": "16g",
+      "spark.memory.fraction": 0.8,
+      "spark.memory.storageFraction": 0.8,
+      "spark.default.parallelism": 32,
+      "spark.shuffle.compress": "false",
+      "spark.shuffle.spill.compress": "false",
+      "spark.broadcast.compress": "false",
+      "spark.rdd.compress": "true",
+      "spark.executor.heartbeatInterval": "100s",
+      "spark.network.timeout": "2000s",
+      "spark.shuffle.file.buffer": "64k",
+      "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
     }
   }
 ]
