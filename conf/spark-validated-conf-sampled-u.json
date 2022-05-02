@@ -17,7 +17,7 @@
       "spark.broadcast.compress": "true",
       "spark.rdd.compress": "true",
       "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "10s",
+      "spark.network.timeout": "100s",
       "spark.shuffle.file.buffer": "32k",
       "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
     }
@@ -40,7 +40,7 @@
       "spark.broadcast.compress": "true",
       "spark.rdd.compress": "true",
       "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "10s",
+      "spark.network.timeout": "100s",
       "spark.shuffle.file.buffer": "32k",
       "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
     }
@@ -63,7 +63,7 @@
       "spark.broadcast.compress": "true",
       "spark.rdd.compress": "true",
       "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "10s",
+      "spark.network.timeout": "100s",
       "spark.shuffle.file.buffer": "64k",
       "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
     }
@@ -86,7 +86,7 @@
       "spark.broadcast.compress": "true",
       "spark.rdd.compress": "true",
       "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "10s",
+      "spark.network.timeout": "100s",
       "spark.shuffle.file.buffer": "64k",
       "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
     }
@@ -247,7 +247,7 @@
       "spark.broadcast.compress": "true",
       "spark.rdd.compress": "true",
       "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "10s",
+      "spark.network.timeout": "100s",
       "spark.shuffle.file.buffer": "32k",
       "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
     }
@@ -270,7 +270,7 @@
       "spark.broadcast.compress": "true",
       "spark.rdd.compress": "true",
       "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "10s",
+      "spark.network.timeout": "100s",
       "spark.shuffle.file.buffer": "32k",
       "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
     }
@@ -293,7 +293,7 @@
       "spark.broadcast.compress": "true",
       "spark.rdd.compress": "true",
       "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "10s",
+      "spark.network.timeout": "100s",
       "spark.shuffle.file.buffer": "64k",
       "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
     }
@@ -316,7 +316,7 @@
       "spark.broadcast.compress": "true",
       "spark.rdd.compress": "true",
       "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "10s",
+      "spark.network.timeout": "100s",
       "spark.shuffle.file.buffer": "64k",
       "spark.serializer": "org.apache.spark.serializer.KryoSerializer"
     }
@@ -477,7 +477,7 @@
       "spark.broadcast.compress": "true",
       "spark.rdd.compress": "true",
       "spark.executor.heartbeatInterval": "10s",
-      "spark.network.timeout": "10s",
+      "spark.network.timeout": "100s",
       "spark.shuffle.file.buffer": "32k",
       "spark.serializer": "org.apache.spark.serializer.JavaSerializer"
     }
