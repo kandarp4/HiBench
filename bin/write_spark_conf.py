@@ -36,7 +36,7 @@ def main(conf):
     with open('conf/spark.conf', 'w') as file:
 
         for key, value in spark_conf_1['validator-resp'].items():
-            file.write("#   "+key + "\t" + str(value) + os.linesep)
+            file.write("#"+key + "\t" + str(value) + os.linesep)
 
         for d_key, d_value in spark_default_conf.items():
             file.write(d_key+"\t"+str(d_value)+os.linesep)
