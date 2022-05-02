@@ -20,6 +20,8 @@ def main(filename):
             line = line.strip()
             if not line:
                 continue  # skip empty lines
+            if line[0] == '#':
+                line = line.lstrip("#")
             try:
                 key, value = re.split("\s", line, 1)
             except ValueError:
