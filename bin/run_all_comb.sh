@@ -6,7 +6,7 @@ root_dir=`cd "${current_dir}/.."; pwd`
 
 . ${root_dir}/bin/functions/color.sh
 
-readarray -t my_array < <(jq -c '.[]' conf/spark-validated-conf-sampled.json)
+readarray -t my_array < <(jq -c '.[]' conf/spark-validated-conf-sampled-u.json)
 
 # iterate through the Bash array
 for item in "${my_array[@]}"; do
