@@ -22,6 +22,7 @@ def main(filename):
                 continue  # skip empty lines
             if line[0] == '#':
                 line = line[1:]
+                print("# Line ", line)
             try:
                 key, value = re.split("\s", line, 1)
             except ValueError:
